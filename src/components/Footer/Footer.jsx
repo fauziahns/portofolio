@@ -1,10 +1,11 @@
 import React from 'react'
+import image from '../../assets/image'
 
 export default function Footer() {
   return (
     <div className='flex items-center p-4 lg:ps-16 md:ps-12 gap-8 mt-40 flex-wrap  border-t-2 py-10'>
       <div className="">
-        <img src="././src/assets/footer.png" alt="" />
+        <img src={image.footer} alt="" />
       </div>
 
       <div className=" text-white">

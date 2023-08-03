@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../Button/Button'
 import ButtonRing from '../Button/ButtonRing'
+import image from '../../assets/image'
 
 export default function Hero() {
   return (
@@ -17,11 +18,11 @@ export default function Hero() {
                 <ButtonRing text={'See Portofolio'} />
             </div>
 
-            <img src="././src/assets/skill.png" alt="skill" className='w-[90%] pt-2' />
+            <img src={image.skill} alt="skill" className='w-[90%] pt-2' />
         </div>
 
         <div className="">
-            <img src='././src/assets/heroImage.png' alt="heroImage" />
+            <img src={image.heroImage} alt="heroImage" />
         </div>
         
       </div>

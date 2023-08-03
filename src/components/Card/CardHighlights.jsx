@@ -1,4 +1,5 @@
 import React from 'react'
+import image from '../../assets/image'
 
 export default function CardHighlights() {
   return (
@@ -19,10 +20,10 @@ export default function CardHighlights() {
                 <div className="">
                     <p className='font-[600] text-[18px] pb-4'>Contact</p>
                     <div className="flex gap-4">
-                        <a href="https://www.behance.net/fauziahnursyifa" target="_blank"><img src="././src/assets/behance.png" alt="" /> </a>
-                        <a href="https://www.linkedin.com/in/fauziah-nur-syifa-27552a216/" target="_blank"><img src="././src/assets/linkedin.png" alt="" className='h-[18px]'/></a>
-                        <a href="mailto:fauziahnsf@gmail.com" target="_blank"><img src="././src/assets/gmail.png" alt="" /> </a>
-                        <a href="https://github.com/fauziahns" target="_blank"><img src="././src/assets/github.png" alt="" /></a>
+                        <a href="https://www.behance.net/fauziahnursyifa" target="_blank"><img src={image.behance} alt="" /> </a>
+                        <a href="https://www.linkedin.com/in/fauziah-nur-syifa-27552a216/" target="_blank"><img src={image.linkedin} alt="" className='h-[18px]'/></a>
+                        <a href="mailto:fauziahnsf@gmail.com" target="_blank"><img src={image.gmail} alt="" /> </a>
+                        <a href="https://github.com/fauziahns" target="_blank"><img src={image.github} alt="" /></a>
                     </div>
                 </div>
       
