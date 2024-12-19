@@ -15,6 +15,7 @@ import skilltripese from './skilltripese.png'
 import tripeaseLandingPage from './tripeaseLandingPage.png'
 import tripease from './tripease.png'
 import gmail from './gmail.png'
+import creativejabar from './creativejabar.png'
 
 export default {
     navLogo,
@@ -33,5 +34,6 @@ export default {
     skilltripese,
     tripeaseLandingPage,
     tripease,
-    gmail
+    gmail,
+    creativejabar
 }

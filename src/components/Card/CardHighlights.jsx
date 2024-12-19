@@ -10,7 +10,7 @@ export default function CardHighlights() {
                 <div className="">
                     <p className='font-[600] text-[18px] pb-4'>Education</p>
                     <p className='pb-2'>Universitas Komputer Indonesia</p>
-                    <p>Sistem Informasi - GPA 3,72</p>
+                    <p>Sistem Informasi - GPA 3,75</p>
                 </div>
                 <div className="">
                     <p className='font-[600] text-[18px] pb-4'>Experience</p>

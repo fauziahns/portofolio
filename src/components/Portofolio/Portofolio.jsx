@@ -8,12 +8,13 @@ export default function Portofolio() {
       <p className='text-[32px] font-[600] pb-12'>Portofolio</p>
       <div className="flex flex-wrap flow-row">
         <Card
-            link={'https://creative-hub-bandung-6qdc.vercel.app/'}
-            thumbline={image.creativehub}
-            title={'Creative Hub Bandung'}
-            position={'FrontEnd Developer - 2023'}
-            skill={image.creativeskill}
-            desc={'This is my final project at Alterra Academy. This website is based on a real case, this website features a form for applying for a room rent at Creative Hub Bandung'}/>  
+          link={'https://creative-center-jawa-barat-h2p8.vercel.app/'}
+          thumbline={image.creativehub}
+          title={'Creative Center Jawa Barat'}
+          position={'Fullstack - 2024'}
+          skill={image.creativeskill}
+          desc={'This is my final project during college. In this website there are features for applying for a room loan, viewing schedules, creating an account, verifying an account and many more. My final project got a perfect final grade (A)'}
+        />
         <Card
             link={'https://admin.tripease.my.id/'}
             thumbline={image.tripease}
@@ -22,6 +23,13 @@ export default function Portofolio() {
             addOn={'admin@gmail.com / qweqwe123 '}
             position={'FrontEnd Developer - 2023'}
             skill={image.skilltripese}/>  
+        <Card
+            link={'https://creative-hub-bandung-6qdc.vercel.app/'}
+            thumbline={image.creativehub}
+            title={'Creative Hub Bandung'}
+            position={'FrontEnd Developer - 2023'}
+            skill={image.creativeskill}
+            desc={'This is my final project at Alterra Academy. This website is based on a real case, this website features a form for applying for a room rent at Creative Hub Bandung'}/>  
         <Card
             link={'https://tripease.my.id/'}
             thumbline={image.tripeaseLandingPage}
